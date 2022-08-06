@@ -91,3 +91,13 @@ button:hover,
 .button.button-microblog:hover,
 .button.button-microblog:focus {
   filter: brightness(90%) }
+
+/* SpaceHey */
+.button.button-spacehey {
+  color: #FFFFFF;
+  background-color: #3234CF;
+}
+.button.button-spacehey:hover,
+.button.button-spacehey:focus {
+  filter: brightness(90%);
+}
