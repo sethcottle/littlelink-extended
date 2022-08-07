@@ -84,6 +84,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Devpost */
+.button.button-devpost {
+  color: #ffffff;
+  background-color: #003E54;
+}
+.button.button-devpost:hover,
+.button.button-devpost:focus {
+  filter: brightness(90%);
+}
+
 /* Micro.blog */
 .button.button-microblog {
   color: #FFFFFF;
