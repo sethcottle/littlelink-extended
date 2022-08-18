@@ -102,6 +102,14 @@ button:hover,
 .button.button-microblog:focus {
   filter: brightness(90%) }
 
+  /* MyAnimeList */
+.button.button-myanimelist {
+  color: #133a95;
+  background-color: #fff }
+.button.button-myanimelist:hover,
+.button.button-myanimelist:focus {
+  filter: brightness(90%) }
+
 /* SpaceHey */
 .button.button-spacehey {
   color: #FFFFFF;
