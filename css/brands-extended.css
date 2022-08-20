@@ -89,8 +89,8 @@ button:hover,
   color: #1769ff;
   background-color: #ffff;
 }
-.button.button-devpost:hover,
-.button.button-devpost:focus {
+.button.button-behance:hover,
+.button.button-behance:focus {
   filter: brightness(90%);
 }
 
@@ -99,8 +99,8 @@ button:hover,
   color: #0000;
   background-color: #ffff;
 }
-.button.button-devpost:hover,
-.button.button-devpost:focus {
+.button.button-codepen:hover,
+.button.button-codepen:focus {
   filter: brightness(90%);
 }
 
@@ -121,6 +121,16 @@ button:hover,
 }
 .button.button-dist:hover,
 .button.button-dist:focus {
+  filter: brightness(90%);
+}
+
+/* Hackerrank */
+.button.button-hackerrank {
+  color: #0000;
+  background-color: #ffff;
+}
+.button.button-hackerrank:hover,
+.button.button-hackerrank:focus {
   filter: brightness(90%);
 }
 
