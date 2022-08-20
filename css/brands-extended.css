@@ -84,6 +84,26 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Behance */
+.button.button-behance {
+  color: #1769ff;
+  background-color: #ffff;
+}
+.button.button-behance:hover,
+.button.button-behance:focus {
+  filter: brightness(90%);
+}
+
+/* Codepen */
+.button.button-codepen {
+  color: #0000;
+  background-color: #ffff;
+}
+.button.button-codepen:hover,
+.button.button-codepen:focus {
+  filter: brightness(90%);
+}
+
 /* Devpost */
 .button.button-devpost {
   color: #ffffff;
@@ -101,6 +121,26 @@ button:hover,
 }
 .button.button-dist:hover,
 .button.button-dist:focus {
+  filter: brightness(90%);
+}
+
+/* Hackerearth */
+.button.button-hackerearth {
+  color: #fff;
+  background-color: #2b3352;
+}
+.button.button-hackerearth:hover,
+.button.button-hackerearth:focus {
+  filter: brightness(90%);
+}
+
+/* Hackerrank */
+.button.button-hackerrank {
+  color: #0000;
+  background-color: #ffff;
+}
+.button.button-hackerrank:hover,
+.button.button-hackerrank:focus {
   filter: brightness(90%);
 }
 
