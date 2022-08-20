@@ -94,6 +94,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Codepen */
+.button.button-codepen {
+  color: #0000;
+  background-color: #ffff;
+}
+.button.button-devpost:hover,
+.button.button-devpost:focus {
+  filter: brightness(90%);
+}
+
 /* Devpost */
 .button.button-devpost {
   color: #ffffff;
