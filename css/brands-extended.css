@@ -124,6 +124,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Hackerearth */
+.button.button-hackerearth {
+  color: #fff;
+  background-color: #2b3352;
+}
+.button.button-hackerearth:hover,
+.button.button-hackerearth:focus {
+  filter: brightness(90%);
+}
+
 /* Hackerrank */
 .button.button-hackerrank {
   color: #0000;
