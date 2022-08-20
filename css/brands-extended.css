@@ -84,6 +84,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Behance */
+.button.button-behance {
+  color: #1769ff;
+  background-color: #ffff;
+}
+.button.button-devpost:hover,
+.button.button-devpost:focus {
+  filter: brightness(90%);
+}
+
 /* Devpost */
 .button.button-devpost {
   color: #ffffff;
