@@ -160,6 +160,14 @@ button:hover,
 .button.button-myanimelist:focus {
   filter: brightness(90%) }
 
+  /*  Vero */
+.button.button-vero {
+  color: #fff;
+  background-color: #000 }
+.button.button-vero:hover,
+.button.button-vero:focus {
+  filter: brightness(90%) }
+
   /* osu! */
 .button.button-osu {
   color: #ffffff;
