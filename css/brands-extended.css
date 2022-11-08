@@ -84,6 +84,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* 500px */
+.button.button-500px {
+  color: #000;
+  background-color: #ffff;
+}
+.button.button-500px:hover,
+.button.button-500px:focus {
+  filter: brightness(90%);
+}
+
 /* Behance */
 .button.button-behance {
   color: #1769ff;
@@ -160,14 +170,6 @@ button:hover,
 .button.button-myanimelist:focus {
   filter: brightness(90%) }
 
-  /*  Vero */
-.button.button-vero {
-  color: #fff;
-  background-color: #000 }
-.button.button-vero:hover,
-.button.button-vero:focus {
-  filter: brightness(90%) }
-
   /* osu! */
 .button.button-osu {
   color: #ffffff;
@@ -187,3 +189,11 @@ button:hover,
 .button.button-spacehey:focus {
   filter: brightness(90%);
 }
+
+  /*  Vero */
+  .button.button-vero {
+    color: #fff;
+    background-color: #000 }
+  .button.button-vero:hover,
+  .button.button-vero:focus {
+    filter: brightness(90%) }
