@@ -47,17 +47,17 @@ button {
 }
 button:hover,
 .button:focus {
-  color: #333;
-  border-color: #888;
+  color: #333333;
+  border-color: #888888;
   outline: 0;
 }
 .button.button-primary {
-  color: #fff;
+  color: #ffffff;
   filter: brightness(90%);
 }
 .button.button-primary:hover,
 .button.button-primary:focus {
-  color: #fff;
+  color: #ffffff;
   filter: brightness(90%);
 }
 
@@ -86,8 +86,8 @@ button:hover,
 
 /* 500px */
 .button.button-500px {
-  color: #000;
-  background-color: #ffff;
+  color: #000000;
+  background-color: #ffffff;
 }
 .button.button-500px:hover,
 .button.button-500px:focus {
@@ -97,7 +97,7 @@ button:hover,
 /* Behance */
 .button.button-behance {
   color: #1769ff;
-  background-color: #ffff;
+  background-color: #ffffff;
 }
 .button.button-behance:hover,
 .button.button-behance:focus {
@@ -106,8 +106,8 @@ button:hover,
 
 /* Codepen */
 .button.button-codepen {
-  color: #0000;
-  background-color: #ffff;
+  color: #000000;
+  background-color: #ffffff;
 }
 .button.button-codepen:hover,
 .button.button-codepen:focus {
@@ -136,7 +136,7 @@ button:hover,
 
 /* Hackerearth */
 .button.button-hackerearth {
-  color: #fff;
+  color: #ffffff;
   background-color: #2b3352;
 }
 .button.button-hackerearth:hover,
@@ -146,8 +146,8 @@ button:hover,
 
 /* Hackerrank */
 .button.button-hackerrank {
-  color: #0000;
-  background-color: #ffff;
+  color: #000000;
+  background-color: #ffffff;
 }
 .button.button-hackerrank:hover,
 .button.button-hackerrank:focus {
@@ -175,7 +175,7 @@ button:hover,
   /* MyAnimeList */
 .button.button-myanimelist {
   color: #133a95;
-  background-color: #fff }
+  background-color: #ffffff }
 .button.button-myanimelist:hover,
 .button.button-myanimelist:focus {
   filter: brightness(90%) }
@@ -200,10 +200,10 @@ button:hover,
   filter: brightness(90%);
 }
 
-  /*  Vero */
-  .button.button-vero {
-    color: #fff;
-    background-color: #000 }
-  .button.button-vero:hover,
-  .button.button-vero:focus {
-    filter: brightness(90%) }
+/*  Vero */
+.button.button-vero {
+  color: #ffffff;
+  background-color: #000000 }
+.button.button-vero:hover,
+.button.button-vero:focus {
+  filter: brightness(90%) }
