@@ -154,6 +154,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* itch.io */
+.button.button-itchio {
+  color: #000000;
+  background-color: #dd4a4a;
+}
+.button.button-itchio:hover,
+.button.button-itchio:focus {
+  filter: brightness(90%);
+}
+
 /* Micro.blog */
 .button.button-microblog {
   color: #FFFFFF;
