@@ -94,6 +94,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Alpha Universe (Sony) */
+.button.button-alphauniverse {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-alphauniverse:hover,
+.button.button-alphauniverse:focus {
+  filter: brightness(90%);
+}
+
 /* Behance */
 .button.button-behance {
   color: #1769ff;
