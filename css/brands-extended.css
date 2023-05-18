@@ -190,6 +190,17 @@ button:hover,
 .button.button-myanimelist:focus {
   filter: brightness(90%) }
 
+
+/* OpenStreetMap */
+.button.button-osm {
+  color: #ffffff;
+  background-color: #434f37;
+}
+.button.button-osm:hover,
+.button.button-osm:focus {
+  filter: brightness(90%);
+}
+
   /* osu! */
 .button.button-osu {
   color: #ffffff;
