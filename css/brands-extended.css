@@ -177,19 +177,22 @@ button:hover,
 /* Micro.blog */
 .button.button-microblog {
   color: #FFFFFF;
-  background-color: #FD9927 }
+  background-color: #FD9927;
+}
 .button.button-microblog:hover,
 .button.button-microblog:focus {
-  filter: brightness(90%) }
+  filter: brightness(90%);
+}
 
-  /* MyAnimeList */
+/* MyAnimeList */
 .button.button-myanimelist {
   color: #133a95;
-  background-color: #ffffff }
+  background-color: #ffffff;
+}
 .button.button-myanimelist:hover,
 .button.button-myanimelist:focus {
-  filter: brightness(90%) }
-
+  filter: brightness(90%);
+}
 
 /* OpenStreetMap */
 .button.button-osm {
@@ -201,7 +204,7 @@ button:hover,
   filter: brightness(90%);
 }
 
-  /* osu! */
+/* osu! */
 .button.button-osu {
   color: #ffffff;
   background-color: #ff8ee6;
@@ -227,4 +230,5 @@ button:hover,
   background-color: #000000 }
 .button.button-vero:hover,
 .button.button-vero:focus {
-  filter: brightness(90%) }
+  filter: brightness(90%);
+}
