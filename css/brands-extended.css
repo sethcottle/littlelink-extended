@@ -174,6 +174,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Lemmy */
+.button.button-lemmy {
+  color: #ffffff;
+  background-color: #14854f;
+}
+.button.button-lemmy:hover,
+.button.button-lemmy:focus {
+  filter: brightness(90%);
+}
+
 /* Micro.blog */
 .button.button-microblog {
   color: #FFFFFF;
