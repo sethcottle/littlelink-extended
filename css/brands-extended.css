@@ -227,3 +227,11 @@ button:hover,
 .button.button-vero:hover,
 .button.button-vero:focus {
   filter: brightness(90%) }
+
+/*  Pixelfed */
+.button.button-pixelfed {
+  color: #000000;
+  background-color: #ffffff }
+.button.button-pixelfed:hover,
+.button.button-pixelfed:focus {
+  filter: brightness(90%) }
