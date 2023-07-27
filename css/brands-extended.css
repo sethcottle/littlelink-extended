@@ -184,6 +184,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Matrix */
+.button.button-matrix {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-matrix:hover,
+.button.button-matrix:focus {
+  filter: brightness(90%);
+}
+
 /* Micro.blog */
 .button.button-microblog {
   color: #FFFFFF;
