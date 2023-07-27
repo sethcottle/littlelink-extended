@@ -187,6 +187,7 @@ button:hover,
 /* Matrix */
 .button.button-matrix {
   color: #ffffff;
+  border: 1px solid #ffffff;
   background-color: #000000;
 }
 .button.button-matrix:hover,
