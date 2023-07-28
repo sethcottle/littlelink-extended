@@ -86,8 +86,8 @@ button:hover,
 
 /* 500px */
 .button.button-500px {
-  color: #000000;
-  background-color: #ffffff;
+    color: #000000;
+    background-color: #ffffff;
 }
 .button.button-500px:hover,
 .button.button-500px:focus {
@@ -184,6 +184,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Matrix */
+.button.button-matrix {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background-color: #000000;
+}
+.button.button-matrix:hover,
+.button.button-matrix:focus {
+  filter: brightness(90%);
+}
+
 /* Micro.blog */
 .button.button-microblog {
   color: #FFFFFF;
@@ -235,3 +246,25 @@ button:hover,
 .button.button-pixelfed:hover,
 .button.button-pixelfed:focus {
   filter: brightness(90%) }
+
+/* write.as */
+.button.button-writeas {
+    color: #000000;
+    border: 1px solid #000000;
+  background-color: #ffffff;
+}
+.button.button-writeas:hover,
+.button.button-writeas:focus {
+    filter: brightness(90%);
+}
+
+/* writefreely */
+.button.button-writefreely {
+    color: #000000;
+    border: 1px solid #000000;
+  background-color: #f4f4f4;
+}
+.button.button-writefreely:hover,
+.button.button-writefreely:focus {
+    filter: brightness(90%);
+}
