@@ -211,6 +211,17 @@ button:hover,
 .button.button-myanimelist:focus {
   filter: brightness(90%) }
 
+  /* ORCID ID */
+.button.button-orcid-id {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+.button.button-orcid-id:hover,
+.button.button-orcid-id:focus {
+  filter: brightness(90%);
+}
+
   /* osu! */
 .button.button-osu {
   color: #ffffff;
@@ -218,6 +229,17 @@ button:hover,
 }
 .button.button-osu:hover,
 .button.button-osu:focus {
+  filter: brightness(90%);
+}
+
+  /* ResearchGate */
+.button.button-researchgate {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #212121;
+}
+.button.button-researchgate:hover,
+.button.button-researchgate:focus {
   filter: brightness(90%);
 }
 
