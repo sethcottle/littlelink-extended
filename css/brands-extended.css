@@ -223,8 +223,8 @@ button:hover,
 
   /* OP.GG */
 .button.button-opgg {
-  color: #5383E8;
-  background-color: #ffffff }
+  color: #ffffff;
+  background-color: #5383E8}
 .button.button-opgg:hover,
 .button.button-opgg:focus {
   filter: brightness(90%) }
