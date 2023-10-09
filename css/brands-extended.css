@@ -134,6 +134,26 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Deezer */
+.button.button-deezer {
+  color: #ffffff;
+  background-color: #181818;
+}
+.button.button-deezer:hover,
+.button.button-deezer:focus {
+  filter: brightness(90%);
+}
+
+/* Deezer Alt */
+.button.button-deezer-alt {
+  color: #ffffff;
+  background-color: #181818;
+}
+.button.button-deezer-alt:hover,
+.button.button-deezer-alt:focus {
+  filter: brightness(90%);
+}
+
 /* Devpost */
 .button.button-devpost {
   color: #ffffff;
@@ -251,6 +271,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Qobuz */
+.button.button-qobuz {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-qobuz:hover,
+.button.button-qobuz:focus {
+  filter: brightness(90%);
+}
+
   /* ResearchGate */
 .button.button-researchgate {
   color: #000000;
@@ -269,6 +299,16 @@ button:hover,
 }
 .button.button-spacehey:hover,
 .button.button-spacehey:focus {
+  filter: brightness(90%);
+}
+
+/* Tidal */
+.button.button-tidal {
+  color: #ffffff;
+  background-color: #000000;
+}
+.button.button-tidal:hover,
+.button.button-tidal:focus {
   filter: brightness(90%);
 }
 
