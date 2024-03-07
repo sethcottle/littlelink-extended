@@ -88,6 +88,7 @@ button:hover,
 .button.button-500px {
     color: #000000;
     background-color: #ffffff;
+    border: 1px solid #000000;
 }
 .button.button-500px:hover,
 .button.button-500px:focus {
@@ -98,6 +99,7 @@ button:hover,
 .button.button-alphauniverse {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #ffffff;
 }
 .button.button-alphauniverse:hover,
 .button.button-alphauniverse:focus {
@@ -108,19 +110,10 @@ button:hover,
 .button.button-anilist {
   color: #ffffff;
   background-color: #152232;
+  border: 1px solid #ffffff;
 }
 .button.button-anilist:hover,
 .button.button-anilist:focus {
-  filter: brightness(90%);
-}
-
-/* Behance */
-.button.button-behance {
-  color: #1769ff;
-  background-color: #ffffff;
-}
-.button.button-behance:hover,
-.button.button-behance:focus {
   filter: brightness(90%);
 }
 
@@ -128,6 +121,7 @@ button:hover,
 .button.button-codepen {
   color: #000000;
   background-color: #ffffff;
+  border: 1px solid #000000;
 }
 .button.button-codepen:hover,
 .button.button-codepen:focus {
@@ -138,6 +132,7 @@ button:hover,
 .button.button-deezer {
   color: #ffffff;
   background-color: #181818;
+  border: 1px solid #ffffff;
 }
 .button.button-deezer:hover,
 .button.button-deezer:focus {
@@ -148,6 +143,7 @@ button:hover,
 .button.button-deezer-alt {
   color: #ffffff;
   background-color: #181818;
+  border: 1px solid #ffffff;
 }
 .button.button-deezer-alt:hover,
 .button.button-deezer-alt:focus {
@@ -158,6 +154,7 @@ button:hover,
 .button.button-devpost {
   color: #ffffff;
   background-color: #003E54;
+  border: 1px solid #ffffff;
 }
 .button.button-devpost:hover,
 .button.button-devpost:focus {
@@ -171,6 +168,28 @@ button:hover,
 }
 .button.button-dist:hover,
 .button.button-dist:focus {
+  filter: brightness(90%);
+}
+
+/* Filmweb */
+.button.button-filmweb {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+}
+.button.button-filmweb:hover,
+.button.button-filmweb:focus {
+  filter: brightness(90%);
+}
+
+/* Gog */
+.button.button-gog {
+  color: #ffffff;
+  background-color: #303030;
+  border: 1px solid #ffffff;
+}
+.button.button-gog:hover,
+.button.button-gog:focus {
   filter: brightness(90%);
 }
 
@@ -188,6 +207,7 @@ button:hover,
 .button.button-hackerrank {
   color: #000000;
   background-color: #ffffff;
+  border: 1px solid #000000;
 }
 .button.button-hackerrank:hover,
 .button.button-hackerrank:focus {
@@ -214,11 +234,22 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* ListenBrainz */
+.button.button-listenbrainz {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+.button.button-listenbrainz:hover,
+.button.button-listenbrainz:focus {
+  filter: brightness(90%);
+}
+
 /* Matrix */
 .button.button-matrix {
   color: #ffffff;
-  border: 1px solid #ffffff;
   background-color: #000000;
+  border: 1px solid #ffffff;
 }
 .button.button-matrix:hover,
 .button.button-matrix:focus {
@@ -233,10 +264,22 @@ button:hover,
 .button.button-microblog:focus {
   filter: brightness(90%) }
 
+/* Mixcloud */
+.button.button-mixcloud {
+  color: #ffffff;
+  background-color: #5000FF;
+}
+.button.button-mixcloud:hover,
+.button.button-mixcloud:focus {
+  filter: brightness(90%);
+}
+
   /* MyAnimeList */
 .button.button-myanimelist {
-  color: #133a95;
-  background-color: #ffffff }
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000; 
+}
 .button.button-myanimelist:hover,
 .button.button-myanimelist:focus {
   filter: brightness(90%) }
@@ -263,7 +306,7 @@ button:hover,
 
   /* osu! */
 .button.button-osu {
-  color: #ffffff;
+  color: #000000;
   background-color: #ff8ee6;
 }
 .button.button-osu:hover,
@@ -271,10 +314,30 @@ button:hover,
   filter: brightness(90%);
 }
 
+/*  Pixelfed */
+.button.button-pixelfed {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+.button.button-pixelfed:hover,
+.button.button-pixelfed:focus {
+  filter: brightness(90%) }
+
+/*  PlayStation */
+.button.button-playstation {
+  color: #ffffff;
+  background-color: #0070D1;
+}
+.button.button-playstation:hover,
+.button.button-playstation:focus {
+  filter: brightness(90%) }
+
 /* Qobuz */
 .button.button-qobuz {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #ffffff;
 }
 .button.button-qobuz:hover,
 .button.button-qobuz:focus {
@@ -292,6 +355,14 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Roll20 */
+.button.button-roll20 {
+  color: #FFFFFF;
+  background-color: #ec008c }
+.button.button-roll20:hover,
+.button.button-roll20:focus {
+  filter: brightness(90%) }
+
 /* SpaceHey */
 .button.button-spacehey {
   color: #FFFFFF;
@@ -306,6 +377,7 @@ button:hover,
 .button.button-tidal {
   color: #ffffff;
   background-color: #000000;
+  border: 1px solid #ffffff;
 }
 .button.button-tidal:hover,
 .button.button-tidal:focus {
@@ -315,24 +387,26 @@ button:hover,
 /*  Vero */
 .button.button-vero {
   color: #ffffff;
-  background-color: #000000 }
+  background-color: #000000;
+  border: 1px solid #ffffff;
+ }
 .button.button-vero:hover,
 .button.button-vero:focus {
   filter: brightness(90%) }
 
-/*  Pixelfed */
-.button.button-pixelfed {
+/* WIP */
+.button.button-wip {
   color: #000000;
-  background-color: #ffffff }
-.button.button-pixelfed:hover,
-.button.button-pixelfed:focus {
+  background-color: #F9DB00}
+.button.button-wip:hover,
+.button.button-wip:focus {
   filter: brightness(90%) }
 
 /* write.as */
 .button.button-writeas {
     color: #000000;
+    background-color: #ffffff;
     border: 1px solid #000000;
-  background-color: #ffffff;
 }
 .button.button-writeas:hover,
 .button.button-writeas:focus {
@@ -342,10 +416,31 @@ button:hover,
 /* writefreely */
 .button.button-writefreely {
     color: #000000;
+    background-color: #f4f4f4;
     border: 1px solid #000000;
-  background-color: #f4f4f4;
 }
 .button.button-writefreely:hover,
 .button.button-writefreely:focus {
     filter: brightness(90%);
+}
+
+/* writefreely */
+.button.button-writefreely {
+  color: #000000;
+  background-color: #f4f4f4;
+  border: 1px solid #000000;
+}
+.button.button-writefreely:hover,
+.button.button-writefreely:focus {
+  filter: brightness(90%);
+}
+
+/* Xbox */
+.button.button-xbox {
+  color: #ffffff;
+  background-color: #107C10;
+}
+.button.button-xbox:hover,
+.button.button-xbox:focus {
+  filter: brightness(90%);
 }
