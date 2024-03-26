@@ -142,17 +142,6 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Deezer Alt */
-.button.button-deezer-alt {
-  color: #ffffff;
-  background-color: #181818;
-  border: 1px solid #ffffff;
-}
-.button.button-deezer-alt:hover,
-.button.button-deezer-alt:focus {
-  filter: brightness(90%);
-}
-
 /* Devpost */
 .button.button-devpost {
   color: #ffffff;
