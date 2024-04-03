@@ -109,14 +109,69 @@ button:hover,
   filter: brightness(90%);
 }
 
-/* Anilist */
+/* AniList */
 .button.button-anilist {
   color: #ffffff;
-  background-color: #152232;
+  background-color: #2b2d42;
   border: 1px solid #ffffff;
 }
 .button.button-anilist:hover,
 .button.button-anilist:focus {
+  filter: brightness(90%);
+}
+
+/* Audiomack */
+.button.button-audiomack {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+}
+.button.button-audiomack:hover,
+.button.button-audiomack:focus {
+  filter: brightness(90%);
+}
+
+/* Bandsintown */
+.button.button-bandsintown {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+}
+.button.button-bandsintown:hover,
+.button.button-bandsintown:focus {
+  filter: brightness(90%);
+}
+
+/* Big Cartel */
+.button.button-bigcartel {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid #ffffff;
+}
+.button.button-bigcartel:hover,
+.button.button-bigcartel:focus {
+  filter: brightness(90%);
+}
+
+/* Bonfire */
+.button.button-bonfire {
+  color: #ffffff;
+  background-color: #F49979;
+  border: 1px solid #3D4853;
+}
+.button.button-bonfire:hover,
+.button.button-bonfire:focus {
+  filter: brightness(90%);
+}
+
+/* Cameo */
+.button.button-cameo {
+  color: #ffffff;
+  background-color: #000000;
+  border: 1px solid #ffffff;
+}
+.button.button-cameo:hover,
+.button.button-cameo:focus {
   filter: brightness(90%);
 }
 
@@ -185,6 +240,17 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Gumroad */
+.button.button-gumroad {
+  background-color:#000000;
+  color:  #ffffff;
+  border: 1px solid #ffffff;
+}
+.button.button-gumroad:hover,
+.button.button-gumroad:focus {
+  filter: brightness(90%);
+}
+
 /* Hackerearth */
 .button.button-hackerearth {
   color: #ffffff;
@@ -213,6 +279,17 @@ button:hover,
 }
 .button.button-itchio:hover,
 .button.button-itchio:focus {
+  filter: brightness(90%);
+}
+
+/* Layers */
+.button.button-layers {
+  color: #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+.button.button-layers:hover,
+.button.button-layers:focus {
   filter: brightness(90%);
 }
 
@@ -284,6 +361,16 @@ button:hover,
 .button.button-opgg:focus {
   filter: brightness(90%) }
 
+/* OpenSea */
+.button.button-opensea {
+  color: #ffffff;
+  background-color: #0086ff;
+  border: 1px solid #0086ff;
+}
+.button.button-opensea:hover,
+.button.button-opensea:focus {
+  filter: brightness(90%);
+}
 
   /* ORCID ID */
 .button.button-orcid-id {
@@ -333,6 +420,17 @@ button:hover,
 }
 .button.button-qobuz:hover,
 .button.button-qobuz:focus {
+  filter: brightness(90%);
+}
+
+/* ravelry */
+.button.button-ravelry {
+  color: #000000;
+  background-color: #F3F4F0;
+  border: 1px solid #000000;
+}
+.button.button-ravelry:hover,
+.button.button-ravelry:focus {
   filter: brightness(90%);
 }
 
