@@ -112,7 +112,7 @@ button:hover,
 /* AniList */
 .button.button-anilist {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #2b2d42;
   border: 1px solid #ffffff;
 }
 .button.button-anilist:hover,
@@ -142,11 +142,22 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* Big Cartel */
+.button.button-bigcartel {
+  color: #ffffff;
+  background-color: #222222;
+  border: 1px solid #ffffff;
+}
+.button.button-bigcartel:hover,
+.button.button-bigcartel:focus {
+  filter: brightness(90%);
+}
+
 /* Bonfire */
 .button.button-bonfire {
   color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
+  background-color: #F49979;
+  border: 1px solid #3D4853;
 }
 .button.button-bonfire:hover,
 .button.button-bonfire:focus {
@@ -226,6 +237,17 @@ button:hover,
 }
 .button.button-gog:hover,
 .button.button-gog:focus {
+  filter: brightness(90%);
+}
+
+/* Gumroad */
+.button.button-gumroad {
+  background-color:#000000;
+  color:  #ffffff;
+  border: 1px solid #ffffff;
+}
+.button.button-gumroad:hover,
+.button.button-gumroad:focus {
   filter: brightness(90%);
 }
 
@@ -342,8 +364,8 @@ button:hover,
 /* OpenSea */
 .button.button-opensea {
   color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
+  background-color: #0086ff;
+  border: 1px solid #0086ff;
 }
 .button.button-opensea:hover,
 .button.button-opensea:focus {
@@ -403,9 +425,9 @@ button:hover,
 
 /* ravelry */
 .button.button-ravelry {
-  color: #EE6E62;
+  color: #000000;
   background-color: #F3F4F0;
-  border: 1px solid #F3F4F0;
+  border: 1px solid #000000;
 }
 .button.button-ravelry:hover,
 .button.button-ravelry:focus {
