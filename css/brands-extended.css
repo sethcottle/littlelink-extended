@@ -396,6 +396,15 @@ button:hover,
 .button.button-myanimelist:focus {
   filter: brightness(90%) }
 
+/* Nostr */
+.button.button-nostr {
+  color: #FFFFFF;
+  background-color: #a915ff;
+}
+.button.button-nostr:hover,
+.button.button-nostr:focus {
+  filter: brightness(90%) }
+
   /* OP.GG */
 .button.button-opgg {
   color: #ffffff;
