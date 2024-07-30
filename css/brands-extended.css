@@ -456,6 +456,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/*  Peertube */
+.button.button-peertube {
+  color: #000000;
+  background-color: #FCE8DB;
+  border: 1px solid #000000;
+}
+.button.button-peertube:hover,
+.button.button-peertube:focus {
+  filter: brightness(90%) }
+
 /*  Pixelfed */
 .button.button-pixelfed {
   color: #000000;
@@ -474,16 +484,6 @@ button:hover,
 .button.button-playstation:hover,
 .button.button-playstation:focus {
   filter: brightness(90%) }
-
-/* Post.news */
-.button.button-post-news {
-color: #ffffff;
-background-color: #678BFF;
-}
-.button.button-post-news:hover,
-.button.button-post-news:focus {
-filter: brightness(90%);
-}
 
 /* Qobuz */
 .button.button-qobuz {
