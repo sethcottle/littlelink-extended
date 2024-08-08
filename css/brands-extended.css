@@ -386,7 +386,7 @@ button:hover,
   filter: brightness(90%);
 }
 
-  /* MyAnimeList */
+/* MyAnimeList */
 .button.button-myanimelist {
   color: #000000;
   background-color: #ffffff;
@@ -405,7 +405,7 @@ button:hover,
 .button.button-nostr:focus {
   filter: brightness(90%) }
 
-  /* OP.GG */
+/* OP.GG */
 .button.button-opgg {
   color: #ffffff;
   background-color: #5383E8}
@@ -424,7 +424,18 @@ button:hover,
   filter: brightness(90%);
 }
 
-  /* ORCID ID */
+/* OpenStreetMap */
+.button.button-osm {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 1px solid #000000;
+}
+.button.button-osm:hover,
+.button.button-osm:focus {
+  filter: brightness(90%);
+}
+
+/* ORCID ID */
 .button.button-orcid-id {
   color: #000000;
   background-color: #FFFFFF;
@@ -435,7 +446,7 @@ button:hover,
   filter: brightness(90%);
 }
 
-  /* osu! */
+/* osu! */
 .button.button-osu {
   color: #000000;
   background-color: #ff8ee6;
@@ -456,7 +467,7 @@ button:hover,
   filter: brightness(90%);
 }
 
-/*  Peertube */
+/* Peertube */
 .button.button-peertube {
   color: #000000;
   background-color: #FCE8DB;
@@ -466,7 +477,7 @@ button:hover,
 .button.button-peertube:focus {
   filter: brightness(90%) }
 
-/*  Pixelfed */
+/* Pixelfed */
 .button.button-pixelfed {
   color: #000000;
   background-color: #ffffff;
@@ -476,7 +487,7 @@ button:hover,
 .button.button-pixelfed:focus {
   filter: brightness(90%) }
 
-/*  PlayStation */
+/* PlayStation */
 .button.button-playstation {
   color: #ffffff;
   background-color: #0070D1;
@@ -518,7 +529,7 @@ button:hover,
   filter: brightness(90%);
 }
 
-  /* ResearchGate */
+/* ResearchGate */
 .button.button-researchgate {
   color: #000000;
   background-color: #FFFFFF;
@@ -617,17 +628,6 @@ button:hover,
 .button.button-writefreely:hover,
 .button.button-writefreely:focus {
     filter: brightness(90%);
-}
-
-/* writefreely */
-.button.button-writefreely {
-  color: #000000;
-  background-color: #f4f4f4;
-  border: 1px solid #000000;
-}
-.button.button-writefreely:hover,
-.button.button-writefreely:focus {
-  filter: brightness(90%);
 }
 
 /* Xbox */
