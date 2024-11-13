@@ -1,651 +1,431 @@
 /*
-* littlelink.io
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
+* LittleLink Extended Button Styles
+* https://littlelink.io
+* Free to use under the MIT license
 * http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
 */
 
-/*
-* Built using on:
-* Skeleton V2.0.4
-* Copyright 2014, Dave Gamache
-* www.getskeleton.com
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-* 12/29/2014
-*/
-
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-
-- Buttons
-- Brand Styles
-
-*/
-
-/* Buttons
+/* Brand Button Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-.button,
-button {
-  display: inline-block;
-  text-decoration: none;
-  height: 100%;
-  text-align: center;
-  vertical-align: middle;
-  font-size: 18px;
-  width: 300px;
-  font-weight: 700;
-  line-height: 20px;
-  padding: 14px 12px 12px 12px;
-  letter-spacing: 0.1px;
-  white-space: wrap;
-  outline: none;
-  border-radius: 8px;
-  cursor: pointer;
-  
-}     
-button:hover,
-.button:focus {
-  color: #212121;
-  border-color: #888;
-  outline: #7AB8FF solid 3px
-}
-.button.button-primary {
-  color: #fff;
-  filter: brightness(90%);
-}
-.button.button-primary:hover,
-.button.button-primary:focus {
-  color: #fff;
-  filter: brightness(90%);
+/* Only include brand-specific button styling here */
+.button,button {
+  color:var(--button-text,#000000);
+  background-color:var(--button-background,transparent);
+  border:var(--button-border,none);
+  transition:filter 0.2s ease,transform 0.2s ease;
 }
 
-/* Brand Icons
+/* Global Button Hover Effect
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button:hover,button:hover {
+  filter:brightness(90%);
+  transform:translateY(-1px);
+}
 
+/* Button Icons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 .icon {
-  padding: 0px 8px 3.5px 0px;
-  vertical-align: middle;
-  width: 20px;
-  height: 20px;
+  filter:var(--icon-filter,none);
 }
 
-/* Brand Styles (we recommend adding these in alphabetical order)
+/* Brand-Specific Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-/* Extended (this is great for your own brand color!) */
-.button.button-extended {
-  color: #ffffff;
-  background-color: #0085ff;
-}
-.button.button-extended:hover,
-.button.button-extended:focus {
-  filter: brightness(90%);
-}
 
 /* 500px */
-.button.button-500px {
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px solid #000000;
-}
-.button.button-500px:hover,
-.button.button-500px:focus {
-  filter: brightness(90%);
+.button-500px {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
-/* Alpha Universe (Sony) */
-.button.button-alphauniverse {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-.button.button-alphauniverse:hover,
-.button.button-alphauniverse:focus {
-  filter: brightness(90%);
+/* Alpha Universe */
+.button-alphauniverse {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* AniList */
-.button.button-anilist {
-  color: #ffffff;
-  background-color: #2b2d42;
-  border: 1px solid #ffffff;
-}
-.button.button-anilist:hover,
-.button.button-anilist:focus {
-  filter: brightness(90%);
+.button-anilist {
+  --button-text:#FFFFFF;
+  --button-background:#2B2D42;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* Audiomack */
-.button.button-audiomack {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-.button.button-audiomack:hover,
-.button.button-audiomack:focus {
-  filter: brightness(90%);
+.button-audiomack {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* Bandsintown */
-.button.button-bandsintown {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-.button.button-bandsintown:hover,
-.button.button-bandsintown:focus {
-  filter: brightness(90%);
+.button-bandsintown {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* BeReal */
-.button.button-bereal {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-.button.button-bereal:hover,
-.button.button-bereal:focus {
-  filter: brightness(90%);
+.button-bereal {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* Big Cartel */
-.button.button-bigcartel {
-  color: #ffffff;
-  background-color: #222222;
-  border: 1px solid #ffffff;
-}
-.button.button-bigcartel:hover,
-.button.button-bigcartel:focus {
-  filter: brightness(90%);
+.button-bigcartel {
+  --button-text:#FFFFFF;
+  --button-background:#222222;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* Bonfire */
-.button.button-bonfire {
-  color: #ffffff;
-  background-color: #F49979;
-  border: 1px solid #3D4853;
-}
-.button.button-bonfire:hover,
-.button.button-bonfire:focus {
-  filter: brightness(90%);
+.button-bonfire {
+  --button-text:#FFFFFF;
+  --button-background:#F49979;
+  --button-border:1px solid #3D4853;
 }
 
 /* Cameo */
-.button.button-cameo {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-.button.button-cameo:hover,
-.button.button-cameo:focus {
-  filter: brightness(90%);
+.button-cameo {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* Clubhouse */
-.button.button-clubhouse {
-  color: #1F1F1A;
-  background-color: #F1EFE3;
-  border: 1px solid #212121;
-}
-.button.button-clubhouse:hover,
-.button.button-clubhouse:focus {
-  filter: brightness(90%);
+.button-clubhouse {
+  --button-text:#1F1F1A;
+  --button-background:#F1EFE3;
+  --button-border:1px solid #212121;
 }
 
 /* Codepen */
-.button.button-codepen {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #000000;
-}
-.button.button-codepen:hover,
-.button.button-codepen:focus {
-  filter: brightness(90%);
+.button-codepen {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
 /* Deezer */
-.button.button-deezer {
-  color: #ffffff;
-  background-color: #181818;
-  border: 1px solid #ffffff;
-}
-.button.button-deezer:hover,
-.button.button-deezer:focus {
-  filter: brightness(90%);
+.button-deezer {
+  --button-text:#FFFFFF;
+  --button-background:#181818;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* Devpost */
-.button.button-devpost {
-  color: #ffffff;
-  background-color: #003E54;
-  border: 1px solid #ffffff;
-}
-.button.button-devpost:hover,
-.button.button-devpost:focus {
-  filter: brightness(90%);
+.button-devpost {
+  --button-text:#FFFFFF;
+  --button-background:#003E54;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* Distiller */
-.button.button-dist {
-  color: #ffffff;
-  background-color: #ed5c47;
-}
-.button.button-dist:hover,
-.button.button-dist:focus {
-  filter: brightness(90%);
+.button-dist {
+  --button-text:#FFFFFF;
+  --button-background:#ED5C47;
 }
 
 /* Filmweb */
-.button.button-filmweb {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-.button.button-filmweb:hover,
-.button.button-filmweb:focus {
-  filter: brightness(90%);
+.button-filmweb {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
-/* Gog */
-.button.button-gog {
-  color: #ffffff;
-  background-color: #303030;
-  border: 1px solid #ffffff;
-}
-.button.button-gog:hover,
-.button.button-gog:focus {
-  filter: brightness(90%);
+/* GOG */
+.button-gog {
+  --button-text:#FFFFFF;
+  --button-background:#303030;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* Guilded */
-.button.button-guilded {
-  color: #000000;
-  background-color: #F5C400;
-}
-.button.button-guilded:hover,
-.button.button-guilded:focus {
-  filter: brightness(90%);
+.button-guilded {
+  --button-text:#000000;
+  --button-background:#F5C400;
 }
 
 /* Gumroad */
-.button.button-gumroad {
-  background-color:#000000;
-  color:  #ffffff;
-  border: 1px solid #ffffff;
-}
-.button.button-gumroad:hover,
-.button.button-gumroad:focus {
-  filter: brightness(90%);
+.button-gumroad {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
-/* Hackerearth */
-.button.button-hackerearth {
-  color: #ffffff;
-  background-color: #2b3352;
-}
-.button.button-hackerearth:hover,
-.button.button-hackerearth:focus {
-  filter: brightness(90%);
+/* HackerEarth */
+.button-hackerearth {
+  --button-text:#FFFFFF;
+  --button-background:#2B3352;
 }
 
-/* Hackerrank */
-.button.button-hackerrank {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #000000;
-}
-.button.button-hackerrank:hover,
-.button.button-hackerrank:focus {
-  filter: brightness(90%);
+/* HackerRank */
+.button-hackerrank {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
 /* itch.io */
-.button.button-itchio {
-  color: #ffffff;
-  background-color: #fa5c5c;
-}
-.button.button-itchio:hover,
-.button.button-itchio:focus {
-  filter: brightness(90%);
+.button-itchio {
+  --button-text:#FFFFFF;
+  --button-background:#FA5C5C;
 }
 
 /* Layers */
-.button.button-layers {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #000000;
-}
-.button.button-layers:hover,
-.button.button-layers:focus {
-  filter: brightness(90%);
+.button-layers {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
 /* LeetCode */
-.button.button-leetcode {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #000000;
-}
-.button.button-leetcode:hover,
-.button.button-leetcode:focus {
-  filter: brightness(90%);
+.button-leetcode {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
 /* Lemmy */
-.button.button-lemmy {
-  color: #ffffff;
-  background-color: #14854f;
-}
-.button.button-lemmy:hover,
-.button.button-lemmy:focus {
-  filter: brightness(90%);
+.button-lemmy {
+  --button-text:#FFFFFF;
+  --button-background:#14854F;
 }
 
 /* ListenBrainz */
-.button.button-listenbrainz {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #000000;
-}
-.button.button-listenbrainz:hover,
-.button.button-listenbrainz:focus {
-  filter: brightness(90%);
+.button-listenbrainz {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
 /* Matrix */
-.button.button-matrix {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-.button.button-matrix:hover,
-.button.button-matrix:focus {
-  filter: brightness(90%);
+.button-matrix {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* Micro.blog */
-.button.button-microblog {
-  color: #FFFFFF;
-  background-color: #FD9927 }
-.button.button-microblog:hover,
-.button.button-microblog:focus {
-  filter: brightness(90%) }
+.button-microblog {
+  --button-text:#FFFFFF;
+  --button-background:#FD9927;
+}
 
 /* Mixcloud */
-.button.button-mixcloud {
-  color: #ffffff;
-  background-color: #5000FF;
-}
-.button.button-mixcloud:hover,
-.button.button-mixcloud:focus {
-  filter: brightness(90%);
+.button-mixcloud {
+  --button-text:#FFFFFF;
+  --button-background:#5000FF;
 }
 
 /* MyAnimeList */
-.button.button-myanimelist {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #000000; 
+.button-myanimelist {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
-.button.button-myanimelist:hover,
-.button.button-myanimelist:focus {
-  filter: brightness(90%) }
+
+/* NGL */
+.button-ngl {
+  --button-text:#FFFFFF;
+  background-image:linear-gradient(-45deg, #ff8d10, #ec1187);
+}
 
 /* Nostr */
-.button.button-nostr {
-  color: #FFFFFF;
-  background-color: #a915ff;
+.button-nostr {
+  --button-text:#FFFFFF;
+  --button-background:#A915FF;
 }
-.button.button-nostr:hover,
-.button.button-nostr:focus {
-  filter: brightness(90%) }
 
 /* OP.GG */
-.button.button-opgg {
-  color: #ffffff;
-  background-color: #5383E8}
-.button.button-opgg:hover,
-.button.button-opgg:focus {
-  filter: brightness(90%) }
+.button-opgg {
+  --button-text:#FFFFFF;
+  --button-background:#5383E8;
+}
 
 /* OpenSea */
-.button.button-opensea {
-  color: #ffffff;
-  background-color: #0086ff;
-  border: 1px solid #0086ff;
-}
-.button.button-opensea:hover,
-.button.button-opensea:focus {
-  filter: brightness(90%);
+.button-opensea {
+  --button-text:#FFFFFF;
+  --button-background:#0086FF;
+  --button-border:1px solid #0086FF;
 }
 
 /* OpenStreetMap */
-.button.button-osm {
-  color: #000000;
-  background-color: #FFFFFF;
-  border: 1px solid #000000;
-}
-.button.button-osm:hover,
-.button.button-osm:focus {
-  filter: brightness(90%);
+.button-osm {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
 /* ORCID ID */
-.button.button-orcid-id {
-  color: #000000;
-  background-color: #FFFFFF;
-  border: 1px solid #212121;
-}
-.button.button-orcid-id:hover,
-.button.button-orcid-id:focus {
-  filter: brightness(90%);
+.button-orcid-id {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #212121;
 }
 
 /* osu! */
-.button.button-osu {
-  color: #000000;
-  background-color: #ff8ee6;
-}
-.button.button-osu:hover,
-.button.button-osu:focus {
-  filter: brightness(90%);
+.button-osu {
+  --button-text:#000000;
+  --button-background:#FF8EE6;
 }
 
 /* Partiful */
-.button.button-partiful {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #FFFFFF;
-}
-.button.button-partiful:hover,
-.button.button-partiful:focus {
-  filter: brightness(90%);
+.button-partiful {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
-/* Peertube */
-.button.button-peertube {
-  color: #000000;
-  background-color: #FCE8DB;
-  border: 1px solid #000000;
+/* PeerTube */
+.button-peertube {
+  --button-text:#000000;
+  --button-background:#FCE8DB;
+  --button-border:1px solid #000000;
 }
-.button.button-peertube:hover,
-.button.button-peertube:focus {
-  filter: brightness(90%) }
 
 /* Pixelfed */
-.button.button-pixelfed {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid #000000;
+.button-pixelfed {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
-.button.button-pixelfed:hover,
-.button.button-pixelfed:focus {
-  filter: brightness(90%) }
 
 /* PlayStation */
-.button.button-playstation {
-  color: #ffffff;
-  background-color: #0070D1;
+.button-playstation {
+  --button-text:#FFFFFF;
+  --button-background:#0070D1;
 }
-.button.button-playstation:hover,
-.button.button-playstation:focus {
-  filter: brightness(90%) }
 
 /* Qobuz */
-.button.button-qobuz {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-.button.button-qobuz:hover,
-.button.button-qobuz:focus {
-  filter: brightness(90%);
+.button-qobuz {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
 /* QQ */
-.button.button-qq {
-  color: #000000;
-  background-color: #FFFFFF;
-  border: 1px solid #000000;
-}
-.button.button-qq:hover,
-.button.button-qq:focus {
-  filter: brightness(90%);
+.button-qq {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
-/* ravelry */
-.button.button-ravelry {
-  color: #000000;
-  background-color: #F3F4F0;
-  border: 1px solid #000000;
+/* Ravelry */
+.button-ravelry {
+  --button-text:#000000;
+  --button-background:#F3F4F0;
+  --button-border:1px solid #000000;
 }
-.button.button-ravelry:hover,
-.button.button-ravelry:focus {
-  filter: brightness(90%);
+
+/* Redbubble */
+.button-redbubble {
+	--button-text:#e41321;
+	--button-background:#ffffff;
+	--button-border:1px solid #212121;
 }
 
 /* ResearchGate */
-.button.button-researchgate {
-  color: #000000;
-  background-color: #FFFFFF;
-  border: 1px solid #212121;
+.button-researchgate {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #212121;
 }
-.button.button-researchgate:hover,
-.button.button-researchgate:focus {
-  filter: brightness(90%);
+
+/* Revolut */
+.button-revolut {
+	--button-text:#000000;
+	--button-background:#ffffff;
+	--button-border:1px solid black;
 }
 
 /* Roll20 */
-.button.button-roll20 {
-  color: #FFFFFF;
-  background-color: #ec008c }
-.button.button-roll20:hover,
-.button.button-roll20:focus {
-  filter: brightness(90%) }
+.button-roll20 {
+  --button-text:#FFFFFF;
+  --button-background:#EC008C;
+}
 
 /* Skoob */
-.button.button-skoob {
-  color: #ffffff;
-  background-color: #3189c8;
-}
-.button.button-skoob:hover,
-.button.button-skoob:focus {
-  filter: brightness(90%);
+.button-skoob {
+  --button-text:#FFFFFF;
+  --button-background:#3189C8;
 }
 
 /* SpaceHey */
-.button.button-spacehey {
-  color: #FFFFFF;
-  background-color: #3234CF;
-}
-.button.button-spacehey:hover,
-.button.button-spacehey:focus {
-  filter: brightness(90%);
+.button-spacehey {
+  --button-text:#FFFFFF;
+  --button-background:#3234CF;
 }
 
 /* Tidal */
-.button.button-tidal {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-}
-.button.button-tidal:hover,
-.button.button-tidal:focus {
-  filter: brightness(90%);
+.button-tidal {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
 }
 
-/*  Vero */
-.button.button-vero {
-  color: #ffffff;
-  background-color: #000000;
-  border: 1px solid #ffffff;
- }
-.button.button-vero:hover,
-.button.button-vero:focus {
-  filter: brightness(90%) }
+/* Trakt */
+.button-trakt {
+	--button-text:#ffffff;
+	--button-background:#ED1C24;
+}
+
+/* Untappd */
+.button-untappd {
+	--button-text:#000000;
+	--button-background:#ffc000;
+}
+
+/* Upwork */
+.button-upwork {
+	--button-text:#FFFFFF;
+	--button-background:#14A800;
+}
+
+/* Vero */
+.button-vero {
+  --button-text:#FFFFFF;
+  --button-background:#000000;
+  --button-border:1px solid #FFFFFF;
+}
 
 /* VRChat */
-.button.button-vrchat {
-  color: #000000;
-  background-color: #ffffff;
-  border: 1px solid black;
-}
-.button.button-vrchat:hover,
-.button.button-vrchat:focus {
-  filter: brightness(90%);
+.button-vrchat {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
 /* WIP */
-.button.button-wip {
-  color: #000000;
-  background-color: #F9DB00}
-.button.button-wip:hover,
-.button.button-wip:focus {
-  filter: brightness(90%) }
-
-/* write.as */
-.button.button-writeas {
-    color: #000000;
-    background-color: #ffffff;
-    border: 1px solid #000000;
-}
-.button.button-writeas:hover,
-.button.button-writeas:focus {
-    filter: brightness(90%);
+.button-wip {
+  --button-text:#000000;
+  --button-background:#F9DB00;
 }
 
-/* writefreely */
-.button.button-writefreely {
-    color: #000000;
-    background-color: #f4f4f4;
-    border: 1px solid #000000;
+/* Write.as */
+.button-writeas {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
-.button.button-writefreely:hover,
-.button.button-writefreely:focus {
-    filter: brightness(90%);
+
+/* WriteFreely */
+.button-writefreely {
+  --button-text:#000000;
+  --button-background:#F4F4F4;
+  --button-border:1px solid #000000;
 }
 
 /* Xbox */
-.button.button-xbox {
-  color: #ffffff;
-  background-color: #107C10;
-}
-.button.button-xbox:hover,
-.button.button-xbox:focus {
-  filter: brightness(90%);
+.button-xbox {
+  --button-text:#FFFFFF;
+  --button-background:#107C10;
 }
 
 /* Xing */
-.button.button-xing {
-  color: #ffffff;
-  background-color: #026466;
-}
-.button.button-xing:hover,
-.button.button-xing:focus {
-  filter: brightness(90%);
+.button-xing {
+  --button-text:#FFFFFF;
+  --button-background:#026466;
 }

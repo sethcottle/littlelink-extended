@@ -1,6 +1,6 @@
 # 🔗 LittleLink Extended
 
-![Logo](https://cdn.cottle.cloud/littlelink/littlelink.gif)
+![Logo](https://cdn.cottle.cloud/GitHub/LittleLink/littlelink.gif)
 
 LittleLink Extended is an addon repository for [LittleLink](https://github.com/sethcottle/littlelink). This repository welcomes more niche services that aren't as globally or regionally popular as required by the core LittleLink repo. Users will be able to import the entirety of these extensions into their fork of LittleLink or selectively add services from it by copy and pasting what they'd like to use into their `brands.css` file and `icons` folders.
 
@@ -27,7 +27,7 @@ When access iconography, you'll reference the folder `images/icons-extended/...`
 Open `index.html` in your copy of the [LittleLink project](https://github.com/sethcottle/littlelink), the first section of the HTML has a `<head>` section. Find the CSS segment `<link rel="stylesheet" href="css/brands.css">` and underneath it, add `<link rel="stylesheet" href="css/brands-extended.css">`. It should look something like this:
 
 
-![CSS Preview](https://cdn.cottle.cloud/littlelink/littlelink-extended-css.png)
+![CSS Preview](https://cdn.cottle.cloud/GitHub/LittleLink/css.png)
 
 ### 👍 That's it!
 

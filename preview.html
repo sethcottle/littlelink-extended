@@ -1,319 +1,258 @@
 <!DOCTYPE html>
-<html lang="en">
 
-<head>
+<!-- 
+  To change the theme, change the class on the html tag below to one of:
+  - theme-auto: Automatically switches based on user's system preferences
+  - theme-light: Forces light theme
+  - theme-dark: Forces dark theme
+-->
 
-  <!-- Page Information
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>LittleLink</title>
-  <meta name="description" content="Find us online!">
-  <meta name="author" content="Seth Cottle">
+<html class="theme-auto" lang="en"> <!-- Update`class="theme-auto" with your preference -->
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
+    <title>LittleLink Extended</title>
+    <link rel="icon" type="image/x-icon" href="/images/avatar.png"> <!-- Update this with your own favicon -->
+    
+    <!-- Meta Description - Write a description (150-160 characters recommended) -->
+    <meta name="description" content="Replace this with your own, this appears in search results and when sharing.">
+    
+    <!-- Keywords -->
+    <meta name="keywords" content="your name, industry, and specialties">
+    
+    <!-- Canonical URL - Helps prevent duplicate content issues -->
+    <meta rel="canonical" href="https://yourwebsite.com">
+    
+    <!-- Author Information -->
+    <meta name="author" content="Your Name">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/brands-extended.css">
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
-
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-
-  <!-- Themes:
-         Auto:   css/skeleton-auto.css
-         Light:  css/skeleton-light.css
-         Dark:   css/skeleton-dark.css
-  -->
-  <link rel="stylesheet" href="css/skeleton-auto.css">
-
-  <link rel="stylesheet" href="css/brands.css">
-  <link rel="stylesheet" href="css/brands-extended.css">
-
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/littlelink.svg">
-
-</head>
+  </head>
 
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="column" style="margin-top: 10%">
+    <div class="container">
+        <div class="column">
 
-        <!--
+            <!-- 
+              By default, the Avatar is rounded. Use the following:
+              - avatar--rounded: Automatically rounds the image
+              - avatar--soft: Slightly rounds the image
+              - avatar--none: Removes any rounding
 
-          THIS REPO DOES NOT INCLUDE THE CORE BRANDS FROM THE LITTLELINK REPO.
+              Be sure to replace the src with your own image path and update the alt text
+            -->
+            <img class="avatar avatar--rounded" src="images/avatar.png" srcset="images/avatar@2x.png 2x" alt="LittleLink">
 
-             ## Getting Started with LittleLink Extended - see the README as well.
+            <!-- Replace with your name or brand -->
+            <h1 tabindex="0">
+              <div>LittleLink</div>
+            </h1>
 
-             Import the extended brands by copy & pasting the `brands-extended.css` file from the `css` folder here into the `css` folder of your copy of LittleLink (https://github.com/sethcottle/littlelink).
+            <!-- Add a short description about yourself or your brand -->
+            <p tabindex="0">An open source DIY Linktree alternative.</p>
 
-             In the <head> section of your copy of index.html in LittleLink, be sure to include <link rel="stylesheet" href="css/brands-extended.css"> so that you can access those extended brand CSS files.
-                └── We've set it up in this preview file as you would need to in your index.html, so feel free to copy and paste the CSS section above.
+            <!-- All your buttons go here -->
+            <div class="button-stack" role="navigation">
 
-            In the `images` folder of littlelink-extended, copy and paste `icons-extended` into the `images` folder of your copy of the main LittleLink file to access the extended brand iconography.
+              <!-- 500px -->
+              <a class="button button-500px" href="#" target="_blank" rel="noopener" role="button"> <img class="icon" aria-hidden="true" aria-hidden="true" src="images/icons-extended/500px.svg" alt="500px Logo">500px</a>
 
-        -->
+              <!-- Alpha Universe (Sony) -->
+              <a class="button button-alphauniverse" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/sony-alpha.svg" alt="Alpha Universe Logo">Universe</a>
 
-        <!-- Your Image Here -->
-        <img src="images/littlelink.svg" class="avatar" alt="LittleLink Logo">
+              <!-- AniList -->
+              <a class="button button-anilist" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/anilist.svg" alt="AniList Logo">AniList</a>
 
-        <!-- Title -->
-        <h1>LittleLink Extended</h1>
+              <!-- Audiomack -->
+              <a class="button button-audiomack" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/audiomack.svg" alt="Audiomack Logo">Audiomack</a>
 
-        <!-- Short Bio -->
-        <p>This page lets you preview the assets that are part of LittleLink Extended.</p>
+              <!-- BeReal -->
+              <a class="button button-bereal" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/bereal.svg" alt="BeReal Logo">BeReal</a>
 
-        <!--
+              <!-- Bandsintown -->
+              <a class="button button-bandsintown" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/bandsintown.svg" alt="Bandsintown Logo">Bandsintown</a>
 
-          ## Breaking down <a> attributes:
+              <!-- Big Cartel -->
+              <a class="button button-bigcartel" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/bigcartel.svg" alt="Big Cartel Logo">Big Cartel</a>
 
-          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
-          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
-          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
+              <!-- Bonfire -->
+              <a class="button button-bonfire" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/bonfire.svg" alt="Bonfire Logo">Bonfire</a>
 
-          2.) Replace the # in href="#" with the desired target URL for the button.
+              <!-- Cameo -->
+              <a class="button button-cameo" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/cameo.svg" alt="Cameo Logo">Cameo</a>
 
-          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
+              <!-- Clubhouse -->
+              <a class="button button-clubhouse" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/clubhouse.svg" alt="Clubhouse Logo">Clubhouse</a>
 
-          4.) rel="noopener" role="button" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
-          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
+              <!-- Codepen -->
+              <a class="button button-codepen" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/codepen.svg" alt="Codepen Logo">Codepen</a>
 
-          ## Breaking down the <img> attributes:
+              <!-- Deezer -->
+              <a class="button button-deezer" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/deezer.svg" alt="Deezer Logo">Listen on Deezer</a>
 
-          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
+              <!-- Devpost -->
+              <a class="button button-devpost" href="#" target="_blank" rel="noopener" role="button"><img class="icon icon-invert" src="images/icons-extended/devpost.svg" alt="Devpost Logo">Devpost</a>
 
-          2.) src="icons/[icon_name].svg" | This defines the icon you would like to display from the icons/ folder. For example, you can change this to src="icons/discord.svg" to use the Discord icon.
-          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
+              <!-- Distiller -->
+              <a class="button button-dist" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/distiller.svg" alt="Distiller Logo">Distiller</a>
 
-          3.) alt="Example Logo" | This alt attribute helps provides alternate text for an image, this can assist users who use screen readers.
+              <!-- Filmweb -->
+              <a class="button button-filmweb" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/filmweb.svg" alt="Filmweb Logo">Filmweb</a>
 
-        -->
+              <!-- Gog -->
+              <a class="button button-gog" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/gog.svg" alt="Gog.com Logo">Gog</a>
 
-        <!-- 500px -->
-        <a class="button button-500px" href="#" target="_blank" rel="noopener" role="button"> <img class="icon" aria-hidden="true" aria-hidden="true" src="images/icons-extended/500px.svg" alt="500px Logo">500px</a>
-        <br>
+              <!-- Guilded -->
+              <a class="button button-guilded" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/guilded.svg" alt="Guilded Logo">Guilded</a>
 
-        <!-- Alpha Universe (Sony) -->
-        <a class="button button-alphauniverse" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/sony-alpha.svg" alt="Alpha Universe Logo">Universe</a>
-        <br>
+              <!-- Gumroad -->
+              <a class="button button-gumroad" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/gumroad.svg" alt="Gumroad Logo">Gumroad</a>
 
-        <!-- AniList -->
-        <a class="button button-anilist" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/anilist.svg" alt="AniList Logo">AniList</a>
-        <br>
+              <!-- Hackerearth -->
+              <a class="button button-hackerearth" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/hackerearth.svg" alt="HackerEarth Logo">HackerEarth</a>
 
-        <!-- Audiomack -->
-        <a class="button button-audiomack" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/audiomack.svg" alt="Audiomack Logo">Audiomack</a>
-        <br>
+              <!-- Hackerrank -->
+              <a class="button button-hackerrank" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/hackerrank.svg" alt="HackerRank Logo">HackerRank</a>
 
-        <!-- BeReal -->
-        <a class="button button-bereal" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/bereal.svg" alt="BeReal Logo">BeReal</a><br>
+              <!-- Itch.io -->
+              <a class="button button-itchio" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/itchio.svg" alt="itchio Logo">itch.io</a>
 
-        <!-- Bandsintown -->
-        <a class="button button-bandsintown" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/bandsintown.svg" alt="Bandsintown Logo">Bandsintown</a>
-        <br>
+              <!-- Layers -->
+              <a class="button button-layers" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/layers.svg" alt="Layers Logo">Layers</a>
 
-        <!-- Big Cartel -->
-        <a class="button button-bigcartel" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/bigcartel.svg" alt="Big Cartel Logo">Big Cartel</a>
-        <br>
+              <!-- LeetCode -->
+              <a class="button button-leetcode" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/leetcode.svg" alt="LeetCode Logo">LeetCode</a><br>
 
-        <!-- Bonfire -->
-        <a class="button button-bonfire" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/bonfire.svg" alt="Bonfire Logo">Bonfire</a>
-        <br>
+              <!-- Lemmy -->
+              <a class="button button-lemmy" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/lemmy.svg" alt="Lemmy Logo">Lemmy</a>
 
-        <!-- Cameo -->
-        <a class="button button-cameo" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/cameo.svg" alt="Cameo Logo">Cameo</a>
-        <br>
+              <!-- ListenBrainz -->
+              <a class="button button-listenbrainz" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/listenbrainz.svg" alt="ListenBrainz Logo">ListenBrainz</a>
 
-        <!-- Clubhouse -->
-        <a class="button button-clubhouse" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/clubhouse.svg" alt="Clubhouse Logo">Clubhouse</a><br>
+              <!-- Matrix -->
+              <a class="button button-matrix" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/matrix.svg" alt="Matrix Logo">Matrix</a>
 
-        <!-- Codepen -->
-        <a class="button button-codepen" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/codepen.svg" alt="Codepen Logo">Codepen</a>
-        <br>
+              <!-- MicroBlog -->
+              <a class="button button-microblog" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/microblog.svg" alt="MicroBlog Logo">MicroBlog</a>
 
-        <!-- Deezer -->
-        <a class="button button-deezer" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/deezer.svg" alt="Deezer Logo">Listen on Deezer</a>
-        <br>
-
-        <!-- Devpost -->
-        <a class="button button-devpost" href="#" target="_blank" rel="noopener" role="button"><img class="icon icon-invert" src="images/icons-extended/devpost.svg" alt="Devpost Logo">Devpost</a>
-        <br>
-
-        <!-- Distiller -->
-        <a class="button button-dist" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/distiller.svg" alt="Distiller Logo">Distiller</a>
-        <br>
-
-        <!-- Filmweb -->
-        <a class="button button-filmweb" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/filmweb.svg" alt="Filmweb Logo">Filmweb</a>
-        <br>
-
-        <!-- Gog -->
-        <a class="button button-gog" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/gog.svg" alt="Gog.com Logo">Gog</a>
-        <br>
-
-        <!-- Guilded -->
-        <a class="button button-guilded" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/guilded.svg" alt="Guilded Logo">Guilded</a><br>
-
-        <!-- Gumroad -->
-        <a class="button button-gumroad" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/gumroad.svg" alt="Gumroad Logo">Gumroad</a>
-        <br>
-
-        <!-- Hackerearth -->
-        <a class="button button-hackerearth" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/hackerearth.svg" alt="HackerEarth Logo">HackerEarth</a>
-        <br>
-
-        <!-- Hackerrank -->
-        <a class="button button-hackerrank" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/hackerrank.svg" alt="HackerRank Logo">HackerRank</a>
-        <br>
-
-        <!-- Itch.io -->
-        <a class="button button-itchio" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/itchio.svg" alt="itchio Logo">itch.io</a>
-        <br>
-
-        <!-- Layers -->
-        <a class="button button-layers" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/layers.svg" alt="Layers Logo">Layers</a>
-        <br>
-
-        <!-- LeetCode -->
-        <a class="button button-leetcode" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/leetcode.svg" alt="LeetCode Logo">LeetCode</a><br>
-
-        <!-- Lemmy -->
-        <a class="button button-lemmy" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/lemmy.svg" alt="Lemmy Logo">Lemmy</a>
-        <br>
-
-        <!-- ListenBrainz -->
-        <a class="button button-listenbrainz" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/listenbrainz.svg" alt="ListenBrainz Logo">ListenBrainz</a>
-        <br>
-
-        <!-- Matrix -->
-        <a class="button button-matrix" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/matrix.svg" alt="Matrix Logo">Matrix</a>
-        <br>
-
-        <!-- MicroBlog -->
-        <a class="button button-microblog" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/microblog.svg" alt="MicroBlog Logo">MicroBlog</a>
-        <br>
-
-        <!-- Mixcloud -->
-        <a class="button button-mixcloud" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/mixcloud.svg" alt="Mixcloud Logo">Mixcloud</a>
-        <br>
-
-        <!-- MyAnimeList -->
-        <a class="button button-myanimelist" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/myanimelist.svg" alt="MyAnimeList Logo">MyAnimeList</a>
-        <br>
-        
-        <!-- Nostr -->
-        <a class="button button-nostr" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/nostr_logo_wht.svg" alt="ostrich">Nostr</a>
-        <br> 
-        
-        <!-- OP.GG -->
-        <a class="button button-opgg" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/opgg.svg" alt="OP.GG Logo">OP.GG</a>
-        <br>
-
-        <!-- OpenSea -->
-        <a class="button button-opensea" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/opensea.svg" alt="OpenSea Logo">OpenSea</a>
-        <br>
-
-        <!-- OpenStreetMap -->
-        <a class="button button-osm" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/osm.svg" alt="OpenStreetMap Logo">OpenStreetMap</a>
-        <br>
-
-        <!-- ORCID ID -->
-        <a class="button button-orcid-id" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/orcid-id.svg" alt="ORCID ID Logo">ORCID ID</a>
-        <br>
-
-        <!-- osu! -->
-        <a class="button button-osu" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/osu.svg" alt="osu! Logo">osu!</a>
-        <br>
-
-        <!-- Partiful -->
-        <a class="button button-partiful" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/partiful.svg" alt="Partiful Logo">Partiful</a><br>
-
-        <!-- Peertube -->
-        <a class="button button-peertube" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/peertube.svg" alt="Peertube Logo">Peertube</a>
-        <br>
-        
-        <!-- Pixelfed -->
-        <a class="button button-pixelfed" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/pixelfed.svg" alt="Pixelfed Logo">Pixelfed</a>
-        <br>
-
-        <!-- PlayStation -->
-        <a class="button button-playstation" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/playstation.svg" alt="PlayStation Logo">PlayStation</a>
-        <br>
-
-        <!-- Qobuz -->
-        <a class="button button-qobuz" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/qobuz.svg" alt="Qobuz Logo">Listen on Qobuz</a>
-        <br>
-
-        <!-- QQ -->
-        <a class="button button-qq" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/qq.svg" alt="QQ Logo">QQ</a><br>
-
-        <!-- ravelry -->
-        <a class="button button-ravelry" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/ravelry.svg" alt="ravelry Logo">ravelry</a>
-        <br>
-        
-        <!-- ResearchGate -->
-        <a class="button button-researchgate" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/researchgate.svg" alt="ResearchGate Logo">ResearchGate</a>
-        <br>
-
-        <!-- Roll20 -->
-        <a class="button button-roll20" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/roll20.svg" alt="Roll20 Logo">Roll20</a>
-        <br>
-
-        <!-- Skoob -->
-        <a class="button button-skoob" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/skoob.svg" alt="Skoob logo">Skoob</a><br>
-        
-        <!-- SpaceHey -->
-        <a class="button button-spacehey" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/spacehey.svg" alt="SpaceHey Logo">SpaceHey</a>
-        <br>
-
-        <!-- Tidal -->
-        <a class="button button-tidal" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/tidal.svg" alt="Tidal Logo">Listen on Tidal</a>
-        <br> 
-
-        <!-- Vero -->
-        <a class="button button-vero" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/vero.svg" alt="Vero Logo">Vero</a>
-        <br>
-
-        <!-- VRChat -->
-        <a class="button button-vrchat" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/vrchat.svg" alt="VRChat Logo">VRChat</a><br>
-
-        <!-- WIP -->
-        <a class="button button-wip" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/wip.svg" alt="WIP Logo">WIP</a>
-        <br>
-
-        <!-- Write.as -->
-        <a class="button button-writeas" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/writeas.svg" alt="Write.as Logo">Write.as</a>
-        <br>
-
-        <!-- Writefreely -->
-        <a class="button button-writefreely" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/writefreely.svg" alt="WriteFreely Logo">WriteFreely</a>
-        <br>
-
-        <!-- Xbox -->
-        <a class="button button-xbox" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/xbox.svg" alt="Xbox Logo">Xbox</a>
-        <br>
-
-        <!-- Xing -->
-        <a class="button button-xing" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/xing.svg" alt="Xing Logo">Xing</a><br>
-
-        <br>
-
-        <p>Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener" role="button">LittleLink</a>.</p>
+              <!-- Mixcloud -->
+              <a class="button button-mixcloud" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/mixcloud.svg" alt="Mixcloud Logo">Mixcloud</a>
+
+              <!-- MyAnimeList -->
+              <a class="button button-myanimelist" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/myanimelist.svg" alt="MyAnimeList Logo">MyAnimeList</a>
+              
+              <!-- NGL -->
+              <a class="button button-ngl" href="#" target="_blank" rel="noopener"><img class="icon" aria-hidden="true" src="images/icons-extended/ngl.svg" alt="NGL Logo">NGL</a>
+              
+              <!-- Nostr -->
+              <a class="button button-nostr" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/nostr_logo_wht.svg" alt="ostrich">Nostr</a>
+              
+              <!-- OP.GG -->
+              <a class="button button-opgg" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/opgg.svg" alt="OP.GG Logo">OP.GG</a>
+
+              <!-- OpenSea -->
+              <a class="button button-opensea" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/opensea.svg" alt="OpenSea Logo">OpenSea</a>
+
+              <!-- OpenStreetMap -->
+              <a class="button button-osm" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/osm.svg" alt="OpenStreetMap Logo">OpenStreetMap</a>
+
+              <!-- ORCID ID -->
+              <a class="button button-orcid-id" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/orcid-id.svg" alt="ORCID ID Logo">ORCID ID</a>
+
+              <!-- osu! -->
+              <a class="button button-osu" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/osu.svg" alt="osu! Logo">osu!</a>
+
+              <!-- Partiful -->
+              <a class="button button-partiful" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/partiful.svg" alt="Partiful Logo">Partiful</a>
+
+              <!-- Peertube -->
+              <a class="button button-peertube" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/peertube.svg" alt="Peertube Logo">Peertube</a>
+              
+              <!-- Pixelfed -->
+              <a class="button button-pixelfed" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/pixelfed.svg" alt="Pixelfed Logo">Pixelfed</a>
+
+              <!-- PlayStation -->
+              <a class="button button-playstation" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/playstation.svg" alt="PlayStation Logo">PlayStation</a>
+
+              <!-- Qobuz -->
+              <a class="button button-qobuz" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/qobuz.svg" alt="Qobuz Logo">Listen on Qobuz</a>
+
+              <!-- QQ -->
+              <a class="button button-qq" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/qq.svg" alt="QQ Logo">QQ</a>
+
+              <!-- ravelry -->
+              <a class="button button-ravelry" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/ravelry.svg" alt="ravelry Logo">ravelry</a>
+              
+              <!-- Redbubble -->
+              <a class="button button-redbubble" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/redbubble.svg" alt="Redbubble Logo">Redbubble</a>
+
+              <!-- ResearchGate -->
+              <a class="button button-researchgate" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/researchgate.svg" alt="ResearchGate Logo">ResearchGate</a>
+             
+              <!-- Revolut -->
+              <a class="button button-revolut" href="" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/revolut.svg" alt="Revolut Logo">Revolut</a>
+              
+              <!-- Roll20 -->
+              <a class="button button-roll20" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/roll20.svg" alt="Roll20 Logo">Roll20</a>
+
+              <!-- Skoob -->
+              <a class="button button-skoob" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/skoob.svg" alt="Skoob logo">Skoob</a>
+              
+              <!-- SpaceHey -->
+              <a class="button button-spacehey" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/spacehey.svg" alt="SpaceHey Logo">SpaceHey</a>
+
+              <!-- Tidal -->
+              <a class="button button-tidal" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/tidal.svg" alt="Tidal Logo">Listen on Tidal</a>
+
+              <!-- Trakt -->
+              <a class="button button-trakt" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/trakt.svg" alt="Trakt Logo">Trakt</a>
+
+              <!-- Untappd -->
+              <a class="button button-untappd" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/untappd.svg" alt="Untappd Logo">Untappd</a>
+
+              <!-- Upwork -->
+              <a class="button button-upwork" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/upwork.svg" alt="Upwork Logo">Upwork</a>
+
+              <!-- Vero -->
+              <a class="button button-vero" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/vero.svg" alt="Vero Logo">Vero</a>
+
+              <!-- VRChat -->
+              <a class="button button-vrchat" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/vrchat.svg" alt="VRChat Logo">VRChat</a>
+
+              <!-- WIP -->
+              <a class="button button-wip" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/wip.svg" alt="WIP Logo">WIP</a>
+
+              <!-- Write.as -->
+              <a class="button button-writeas" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/writeas.svg" alt="Write.as Logo">Write.as</a>
+
+              <!-- Writefreely -->
+              <a class="button button-writefreely" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/writefreely.svg" alt="WriteFreely Logo">WriteFreely</a>
+
+              <!-- Xbox -->
+              <a class="button button-xbox" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/xbox.svg" alt="Xbox Logo">Xbox</a>
+
+              <!-- Xing -->
+              <a class="button button-xing" href="#" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons-extended/xing.svg" alt="Xing Logo">Xing</a>
 
       </div>
+        
+      <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
+      <footer>
+        Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>
+      </footer>
+    
     </div>
   </div>
 
-  <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 
 </html>
+
