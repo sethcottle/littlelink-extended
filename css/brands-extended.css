@@ -347,6 +347,19 @@
   --button-background:#EC008C;
 }
 
+/* SimpleX */
+.button-simplex {
+	--button-text:#000000;
+	--button-background:#F3F6F7;
+}
+
+/* SimpleX Alt */
+.button-simplex-dark {
+	--button-text:#FFFFFF;
+	background-color: #000000;
+	--button-border: 1px solid #000000;
+}
+
 /* Skoob */
 .button-skoob {
   --button-text:#FFFFFF;
