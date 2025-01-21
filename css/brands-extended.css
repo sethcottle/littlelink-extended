@@ -347,16 +347,16 @@
   --button-background:#EC008C;
 }
 
-/* SimpleX */
+/* SimpleX Chat */
 .button-simplex {
 	--button-text:#000000;
 	--button-background:#F3F6F7;
 }
 
-/* SimpleX Alt */
-.button-simplex-dark {
+/* SimpleX Chat Alt */
+.button-simplex-alt {
 	--button-text:#FFFFFF;
-	background-color: #000000;
+	--background-color: #000000;
 	--button-border: 1px solid #000000;
 }
 
