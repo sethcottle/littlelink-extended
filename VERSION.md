@@ -1,6 +1,9 @@
 # LittleLink Extended Version History
 
-## Current Version: v3.1.1
+## Current Version: v3.1.2
+
+### v3.1.2 - 03/16/2025
+- Adds Babylist to `preview.html`
 
 ### v3.1.1 - 03/16/2025
 - Fixed an issue where the Sensitve Content Warning Module did not 
