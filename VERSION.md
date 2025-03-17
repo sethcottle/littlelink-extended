@@ -1,11 +1,15 @@
 # LittleLink Extended Version History
 
-## Current Version: v3.1.0
+## Current Version: v3.1.1
+
+### v3.1.1 - 03/16/2025
+- Fixed an issue where the Sensitve Content Warning Module did not 
+automatically update to `dark` theme when `theme-auto` was applied.
 
 ### v3.1.0 - 03/16/2025
 - Added Babylist button
 - Fixed SimpleX Chat Alt
-- Added Sensitve Content Warning Modile
+- Added Sensitve Content Warning Module
   - Adds `JS` folder with `sensitive-content.js`
   - Adds a new `css` file for `sensitve-content.css`
   - Adds a new `generic-warning.svg`
