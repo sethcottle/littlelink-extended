@@ -3,7 +3,7 @@
 ## Current Version: v3.1.1
 
 ### v3.1.1 - 03/16/2025
-- Fixed an issue where the Sensitve Content Warning Module did not 
+- Fixed an issue where the Sensitive Content Warning Module did not 
 automatically update to `dark` theme when `theme-auto` was applied.
 
 ### v3.1.0 - 03/16/2025
