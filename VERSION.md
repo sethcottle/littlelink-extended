@@ -1,6 +1,14 @@
 # LittleLink Extended Version History
 
-## Current Version: v3.0.0
+## Current Version: v3.1.0
+
+### v3.1.0 - 03/16/2025
+- Added Babylist button
+- Fixed SimpleX Chat Alt
+- Added Sensitve Content Warning Modile
+  - Adds `JS` folder with `sensitive-content.js`
+  - Adds a new `css` file for `sensitve-content.css`
+  - Adds a new `generic-warning.svg`
 
 ### v3.0.0 - 11/13/2024
 LittleLink Extended has been updated to reflect all modernizations of the core LittleLink repo.

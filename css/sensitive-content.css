@@ -1,0 +1,63 @@
+/* Optional "Sensitive Content" Slide-Down Panel
+   ----------------------------------------------
+   By default, it's collapsed (max-height: 0) and 
+   pushes content down in normal flow when open.
+*/
+
+/* Sensitive Warning Button Styling */
+.button-sensitive {
+	--button-text:#ffffff;
+	--button-background:#D72638;
+	--button-border:1px solid #ffffff;
+}
+
+/* Container so everything is grouped nicely */
+.slide-container {
+    margin: 0; /* We let the .button margin handle spacing */
+  }
+  
+  /* The slide-down panel starts collapsed */
+  .sensitive-panel {
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  /* When open, show border and expand */
+  .sensitive-panel.open {
+    max-height: 300px; 
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  /* The panel's content area */
+  .sensitive-panel__content {
+    position: relative;
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Basic spacing inside the panel */
+  .sensitive-panel__content p {
+    margin: 1rem 0;
+  }
+  
+  .sensitive-panel__content .button {
+    margin-top: 1rem;
+  }
+  
+  /* Dark theme support */
+  :root.theme-dark .sensitive-panel__content {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  :root.theme-dark .sensitive-panel.open {
+    border-color: #444;
+  }
+  

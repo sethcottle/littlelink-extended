@@ -59,6 +59,13 @@
   --button-border:1px solid #FFFFFF;
 }
 
+/* Babylist */
+.button-babylist {
+	--button-text:#FFFFFF;
+	--button-background:#6E3264;
+	--button-border:1px solid #FFFFFF;
+}
+
 /* Bandsintown */
 .button-bandsintown {
   --button-text:#FFFFFF;
@@ -356,8 +363,8 @@
 
 /* SimpleX Chat Alt */
 .button-simplex-alt {
-  --button-text:#FFFFFF;
-  --background-color: #000000;
+	--button-text:#FFFFFF;
+	--button-background:#000000;
   --button-border: 1px solid #FFFFFF;
 }
 
