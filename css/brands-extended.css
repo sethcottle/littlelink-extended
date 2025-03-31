@@ -142,6 +142,13 @@
   --button-border:1px solid #FFFFFF;
 }
 
+/* Flashes */
+.button-flashes {
+  --button-text:#FFFFFF;
+  background-image:linear-gradient(160deg, #022869, #0045B4, #19A5F5);
+}
+
+
 /* GOG */
 .button-gog {
   --button-text:#FFFFFF;
