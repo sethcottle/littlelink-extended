@@ -188,6 +188,13 @@
   --button-background:#FA5C5C;
 }
 
+/* Keybase */
+.button-keybase {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
+}
+
 /* Layers */
 .button-layers {
   --button-text:#000000;
