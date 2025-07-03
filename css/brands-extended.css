@@ -148,12 +148,18 @@
   background-image:linear-gradient(160deg, #022869, #0045B4, #19A5F5);
 }
 
-
 /* GOG */
 .button-gog {
   --button-text:#FFFFFF;
   --button-background:#303030;
   --button-border:1px solid #FFFFFF;
+}
+
+/* Gravatar */
+.button-gravatar {
+  --button-text:#101517;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #E0E0E0;
 }
 
 /* Guilded */
