@@ -426,6 +426,12 @@
   --button-border:1px solid #FFFFFF;
 }
 
+/* Viber */
+.button-viber {
+  --button-text:#FFFFFF;
+  --button-background:#7360F2;
+}
+
 /* VRChat */
 .button-vrchat {
   --button-text:#000000;
