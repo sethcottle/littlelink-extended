@@ -470,3 +470,10 @@
   --button-text:#FFFFFF;
   --button-background:#026466;
 }
+
+/* Zalo */
+.button-zalo {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #0068FF;
+}
