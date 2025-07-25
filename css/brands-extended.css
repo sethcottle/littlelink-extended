@@ -432,6 +432,12 @@
   --button-border:1px solid #FFFFFF;
 }
 
+/* Viber */
+.button-viber {
+  --button-text:#FFFFFF;
+  --button-background:#7360F2;
+}
+
 /* VRChat */
 .button-vrchat {
   --button-text:#000000;
@@ -469,4 +475,11 @@
 .button-xing {
   --button-text:#FFFFFF;
   --button-background:#026466;
+}
+
+/* Zalo */
+.button-zalo {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #0068FF;
 }
