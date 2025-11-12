@@ -108,6 +108,12 @@
   --button-border:1px solid #212121;
 }
 
+/* Codeberg */
+.button-codeberg {
+  --button-text:#FFFFFF;
+  --button-background:#2185D0;
+}
+
 /* Codepen */
 .button-codepen {
   --button-text:#000000;
