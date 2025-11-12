@@ -228,8 +228,8 @@
   --button-border:1px solid #000000;
 }
 
-/* Matrix */
-.button-matrix {
+/* Matrix Alt */
+.button-matrix-alt {
   --button-text:#FFFFFF;
   --button-background:#000000;
   --button-border:1px solid #FFFFFF;
