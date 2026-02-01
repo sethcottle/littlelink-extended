@@ -141,6 +141,13 @@
   --button-background:#ED5C47;
 }
 
+/* Epic Games */
+.button-epicgames {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
+}
+
 /* Filmweb */
 .button-filmweb {
   --button-text:#FFFFFF;
@@ -251,6 +258,13 @@
 .button-mixcloud {
   --button-text:#FFFFFF;
   --button-background:#5000FF;
+}
+
+/* MusicBrainz */
+.button-musicbrainz {
+  --button-text:#000000;
+  --button-background:#FFFFFF;
+  --button-border:1px solid #000000;
 }
 
 /* MyAnimeList */
@@ -404,6 +418,12 @@
 .button-spacehey {
   --button-text:#FFFFFF;
   --button-background:#3234CF;
+}
+
+/* Speedrun.com */
+.button.button-speedrun {
+	--button-text: #FFFFFF;
+	--button-background:#199C77;
 }
 
 /* Tidal */
