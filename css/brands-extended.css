@@ -73,6 +73,27 @@
   --button-border:1px solid #FFFFFF;
 }
 
+/* BARQ! Chat */
+.button-barq {
+  --button-text:#000000;
+  --button-background:#FF6200;
+  --button-border: 1px solid #000000;
+}
+
+/* BARQ! Chat Alt 1 */
+.button-barq-alt-1 {
+	--button-text:#FFFFFF;
+	--button-background:#000000;
+  --button-border: 1px solid #FFFFFF;
+}
+
+/* BARQ! Chat Alt 2 */
+.button-barq-alt-2 {
+	--button-text:#000000;
+	--button-background:#FFFFFF;
+  --button-border: 1px solid #FFFFFF;
+}
+
 /* BeReal */
 .button-bereal {
   --button-text:#FFFFFF;
