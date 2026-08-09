@@ -259,6 +259,12 @@
   --button-background:#FD9927;
 }
 
+/* Mindola */
+.button-mindola {
+  --button-text:#FFFFFF;
+  --button-background:#0A0A0A;
+}
+
 /* Mixcloud */
 .button-mixcloud {
   --button-text:#FFFFFF;
